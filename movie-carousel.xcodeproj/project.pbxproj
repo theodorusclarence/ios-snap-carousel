@@ -11,6 +11,10 @@
 		116637372832265800531B18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116637362832265800531B18 /* ContentView.swift */; };
 		116637392832265900531B18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 116637382832265900531B18 /* Assets.xcassets */; };
 		1166373C2832265900531B18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1166373B2832265900531B18 /* Preview Assets.xcassets */; };
+		116637452832270D00531B18 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116637442832270D00531B18 /* Movie.swift */; };
+		11663748283227EA00531B18 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11663747283227EA00531B18 /* Home.swift */; };
+		1166374B28322C7D00531B18 /* SnapCarousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166374A28322C7D00531B18 /* SnapCarousel.swift */; };
+		1166374D28322CC000531B18 /* SnapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1166374C28322CC000531B18 /* SnapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		116637362832265800531B18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		116637382832265900531B18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1166373B2832265900531B18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		116637442832270D00531B18 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		11663747283227EA00531B18 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1166374A28322C7D00531B18 /* SnapCarousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapCarousel.swift; sourceTree = "<group>"; };
+		1166374C28322CC000531B18 /* SnapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,9 @@
 		116637332832265800531B18 /* movie-carousel */ = {
 			isa = PBXGroup;
 			children = (
+				1166374928322C7200531B18 /* Component */,
+				11663746283227DF00531B18 /* View */,
+				11663743283226DD00531B18 /* Model */,
 				116637342832265800531B18 /* movie_carouselApp.swift */,
 				116637362832265800531B18 /* ContentView.swift */,
 				116637382832265900531B18 /* Assets.xcassets */,
@@ -65,6 +76,31 @@
 				1166373B2832265900531B18 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11663743283226DD00531B18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				116637442832270D00531B18 /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11663746283227DF00531B18 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11663747283227EA00531B18 /* Home.swift */,
+				1166374C28322CC000531B18 /* SnapView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1166374928322C7200531B18 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				1166374A28322C7D00531B18 /* SnapCarousel.swift */,
+			);
+			path = Component;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +175,10 @@
 			files = (
 				116637372832265800531B18 /* ContentView.swift in Sources */,
 				116637352832265800531B18 /* movie_carouselApp.swift in Sources */,
+				1166374D28322CC000531B18 /* SnapView.swift in Sources */,
+				11663748283227EA00531B18 /* Home.swift in Sources */,
+				116637452832270D00531B18 /* Movie.swift in Sources */,
+				1166374B28322C7D00531B18 /* SnapCarousel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
